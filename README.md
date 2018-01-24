@@ -11,3 +11,12 @@ More about Dulwich:
 Andrew's talk:
 
   * https://github.com/py-yyc/git-init/
+
+
+Install:
+
+   pip install dulwich
+
+or (if using Python3):
+
+   pip install https://github.com/dulwich/dulwich/archive/master.zip
