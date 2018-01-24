@@ -49,7 +49,7 @@ commit.commit_time = commit.author_time = int(time())  # seconds since epoch
 commit.commit_timezone = commit.author_timezone = -7 * (60 * 60)  # seconds offset; MST
 commit.encoding = b"utf8"
 commit.message = b"The beginning"
-# no commit.parent because this is the first Commit
+# no commit.parents because this is the first Commit
 
 # again, not in the object store yet
 store.add_object(commit)
