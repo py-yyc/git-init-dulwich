@@ -1,3 +1,4 @@
+# Python with Dulwich
 
 This is (part of) a PyYYC talk about Git and its internals; see
 Andrew's repository for the "talk" portion -- this is a demo of using
@@ -15,8 +16,12 @@ Andrew's talk:
 
 Install:
 
+```
    pip install dulwich
+```
 
 or (if using Python3):
 
+```
    pip install https://github.com/dulwich/dulwich/archive/master.zip
+```
